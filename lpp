@@ -1,0 +1,22 @@
+real a,b,c
+inicio
+escriba "suma de numerosingresados por teclado"
+llamar nueva_linea
+escriba "ingrese el primer numero"
+lea a
+escriba"ingrese el segundo numero"
+c<-a+b
+escriba "la suma de",a,"mas",b,"es:",c
+fin
+entero c
+inicio
+escriba "ingresando a cine"
+llamar nueva_linea
+escriba "favor presentar cedula"
+llamar nueva_linea
+lea c
+si c>18 entonces escriba "ingrese a la pelicula de nenas"
+sino escriba "ingresa a la pelicula de bebe"
+fin si 
+
+fin
