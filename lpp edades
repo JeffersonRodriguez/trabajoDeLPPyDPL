@@ -22,7 +22,7 @@ inicio
            escriba "adolecente"
            sino
              si(c<=10)y(c>1)entonces
-             escriba "niño"
+             escriba "niÃ±o"
              sino
                si(c<=1)entonces
                escriba "bebe"
