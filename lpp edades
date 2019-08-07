@@ -7,10 +7,10 @@ inicio
    escriba "anciano"
    sino
      si(c>65) y (c<=90)entonces
-     escriba "tercera"
+     escriba "eres considerado de la tercera edad"
      sino
        si(c<=65)y(c>40)entonces
-       escriba "adulto mayor"
+       escriba "eres considerado un adulto mayor"
        sino
         si(c<=40)y(c>17)entonces
         escriba "adulto"
