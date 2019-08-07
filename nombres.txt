@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Trabajo lpp y dfd</title>
+</head>
+<body>
+	   
+<header>
+<h1>SENA – 1906846R2</h1>		
+</header>
+<ul>
+
+<li type="circle">jefferson rodriguez</li>
+<li type="square">Nataly</li>
+
+<li type="disc">eeduardo</li>
+
+</ul>
+<html>
