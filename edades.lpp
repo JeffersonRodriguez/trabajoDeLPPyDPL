@@ -13,7 +13,7 @@ inicio
        escriba "eres considerado un adulto mayor"
        sino
         si(c<=40)y(c>17)entonces
-        escriba "adulto"
+        escriba "eres considerado un adulto"
         sino
           si(c<=17)y(c>15)entonces
           escriba "joven #cool"
