@@ -27,11 +27,10 @@ inicio
                si(c<=1)entonces
                escriba "bebe"
                sino 
-                escriba "no has nacido"
+                escriba "todavia no has nacido"
                fin si 
              fin si 
            fin si 
-        
         fin si
        fin si     
      fin si
