@@ -1,0 +1,23 @@
+entero numero, suma
+inicio
+escriba "ACOMULADOR/SUMA"
+llamar nueva_linea
+llamar nueva_linea
+  escriba "digite el numero: "
+  lea numero
+  llamar nueva_linea
+  escriba "digite la suma: "
+  lea suma
+  mientras (numero<=10) haga
+    escriba " el numero es: "
+    escriba numero
+    llamar nueva_linea
+    llamar nueva_linea 
+    suma<-suma+numero
+    numero<-numero+1
+    llamar obtener_caracter
+    escriba "la suma va en: " , suma
+    llamar nueva_linea
+  fin mientras
+  escriba "la sumatoria total es: " , suma
+fin    

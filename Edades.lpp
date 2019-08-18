@@ -1,0 +1,40 @@
+entero c
+inicio
+ escriba "ingrese su edad"
+ llamar nueva_linea
+ lea c
+ si(c>90)entonces 
+   escriba "eres considerado anciano"
+   sino
+     si(c>65) y (c<=90)entonces
+     escriba "eres considerado de la tercera edad"
+     sino
+       si(c<=65)y(c>40)entonces
+       escriba "eres considerado un adulto mayor"
+       sino
+        si(c<=40)y(c>17)entonces
+        escriba "eres considerado un adulto"
+        sino
+          si(c<=17)y(c>15)entonces
+          escriba "eres considerado joven"
+          sino
+           si(c<=15)y(c>10)entonces
+           escriba "eres considerado un adolecente"
+           sino
+             si(c<=10)y(c>1)entonces
+             escriba "eres considerado un niño"
+             sino
+               si(c<=1)entonces
+               escriba "eres considerado un bebe"
+               sino 
+                escriba "no has nacido o eres menos a un año"
+               fin si 
+             fin si 
+           fin si 
+        
+        fin si
+       fin si     
+     fin si
+fin si  
+fin si
+fin

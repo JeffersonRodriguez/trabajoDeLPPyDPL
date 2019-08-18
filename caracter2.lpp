@@ -1,0 +1,77 @@
+real a,b,ca
+caracter c
+entero opcion2, base,h,area, lado, lado2, radio, pi
+inicio
+  escriba "Lea el caracter del menu, luego digitelo"
+  llamar nueva_linea
+  escriba "S/s/+ para la suma"
+  llamar nueva_linea
+  escriba "R/r/- para la resta"
+  llamar nueva_linea
+  escriba "P o p para desplegar otro menu"
+  llamar nueva_linea
+  llamar nueva_linea
+  escriba "Caracter distinto a r o s para terminar"
+  llamar nueva_linea
+  llamar nueva_linea    
+  escriba "Digite el caracter: "
+  lea c
+  llamar nueva_linea
+  caso c
+       's', 'S', '+': escriba "vamos a la suma" 
+            llamar nueva_linea
+            llamar nueva_linea
+            escriba "ingrese el primer numero: "
+            lea a 
+            llamar nueva_linea 
+            escriba "ingrese el segundo numero: "
+            lea b
+            llamar nueva_linea
+            ca<-a+b
+            escriba "la suma es: ",ca
+        'r', 'R', '-' :escriba "vamos a restar"
+            llamar nueva_linea
+            llamar nueva_linea
+            escriba "ingrese el primer numero: "
+            lea a 
+            llamar nueva_linea 
+            escriba "ingrese el segundo numero: "
+            lea b
+            llamar nueva_linea
+            ca<-a-b
+            escriba "la suma es: ",ca
+         'p', 'P': 
+            escriba "digite opcion a seleccionar"
+                   llamar nueva_linea
+                   escriba "1 para area triangulo"
+                   llamar nueva_linea
+                   escriba "50 para area cuadrado"
+                   llamar nueva_linea
+                   escriba "8 para area circulo"
+                   llamar nueva_linea
+                   lea opcion2
+                   caso opcion2
+                      1: escriba "ingrese el numero para la base: "
+                         lea base
+                         llamar nueva_linea
+                         escriba "ingrese el valor de la altura: "
+                         lea h 
+                         llamar nueva_linea
+                         area<-(base*h)/2
+                         escriba "el area del triangulo es: ",area
+                     50: escriba "ingrese el valor del lado: "
+                         lea lado
+                         escriba "ingrese el valor del otro lado: "
+                         lea lado2 
+                         llamar nueva_linea
+                         llamar nueva_linea
+                         area<-(lado*lado2)
+                         escriba "el area del cuadrado es: ",area
+                         
+                      8: escriba "ingrese el valor del radio"
+                         lea radio
+                         area<-3.1416*(radio^2)
+                         escriba "el area del circulo es: ", area      
+                  Fin caso
+   fin caso
+fin
