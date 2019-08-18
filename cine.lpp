@@ -2,11 +2,13 @@ entero c
 inicio
 escriba "ingresando a cine"
 llamar nueva_linea
+escriba "Para ingresar al cine debe presentar su cedula"
+llamar nueva_linea
 escriba "favor presentar cedula"
 llamar nueva_linea
 lea c
-si c>18 entonces escriba "ingrese a la pelicula de nenas"
-sino escriba "ingresa a la pelicula de bebe"
+si c>18 entonces escriba "Usted es considerado mayor de edad, ingresa a la pelicula de nenas"
+sino escriba "Usted es considerado menor de edadingresa a la pelicula de bebe"
 fin si 
 
 fin
