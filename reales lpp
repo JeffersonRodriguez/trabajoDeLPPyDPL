@@ -1,3 +1,4 @@
+real a,b,ca
 caracter c
 entero opcion2,base ,h,area, lado , cuadrado, radio 
 inicio  
@@ -7,6 +8,8 @@ escriba "s para la suma "
 llamar nueva_linea 
 escriba "r para la resta "
 llamar nueva_linea
+escriba "P para desplegar menu de area"
+llamar nueva_linea 
 escriba "caracter distinto a R o S para terminar "
 llamar nueva_linea 
    
@@ -24,8 +27,8 @@ llamar nueva_linea
 			     llamar nueva_linea
 			     lea b 
 			     llamar nueva_linea 
-			     CA<-A+B
-			     ESCRIBA "escriba la suma es ", ca
+			     lea ca<-a+b
+			     escriba "escriba la suma es ", ca
      'r':
      			 escriba "vamos a restar "
      
