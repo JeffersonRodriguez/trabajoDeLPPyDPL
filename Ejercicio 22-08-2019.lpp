@@ -1,0 +1,9 @@
+entero n
+caracter x
+inicio
+	para n <- 0 hasta 256 haga
+	x<- car(n)
+	escriba " El caracter ascii de ", n , " es: ", x
+	llamar nueva_linea
+	fin para
+fin 
