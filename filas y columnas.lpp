@@ -1,0 +1,60 @@
+/*ORIGINAL*/
+/*arreglo [2,4] de cadena [4] nombres
+entero filas, columnas
+inicio
+	nombres [1,1]<- "Aniceta"
+	nombres [1,2]<- "Romelia"
+	nombres [1,3]<- "Mitolindo"
+	nombres [1,4]<- "Rosario"
+	nombres [2,1]<- "Temistocles"
+	nombres [2,2]<- "Zoraines"
+	nombres [2,3]<- "Paulino"
+	nombres [2,4]<- "Carlina"
+		para filas <- 1 hasta 2 haga
+			para columnas <- 1hasta 4 haga
+				escriba nombres [filas, columnas], " "
+			fin para
+		fin para
+fin*/ 
+
+/*SALTO CADA 4*/
+/*arreglo [2,4] de cadena [11] nombres
+entero filas, columnas
+inicio
+	nombres [1,1]<- "Aniceta"
+	nombres [1,2]<- "Romelia"
+	nombres [1,3]<- "Mitolindo"
+	nombres [1,4]<- "Rosario"
+	nombres [2,1]<- "Temistocles"
+	nombres [2,2]<- "Zoraines"
+	nombres [2,3]<- "Paulino"
+	nombres [2,4]<- "Carlina"
+		para filas <- 1 hasta 2 haga
+			para columnas <- 1hasta 4 haga
+				escriba nombres [filas, columnas], " "
+			fin para
+				llamar nueva_linea			
+		fin para
+fin*/ 
+
+/*arreglo [2,4] de cadena [11] nombres
+entero filas, columnas
+inicio
+	nombres [1,1]<- "Aniceta"
+	nombres [1,2]<- "Romelia"
+	nombres [1,3]<- "Mitolindo"
+	nombres [1,4]<- "Rosario"
+	nombres [2,1]<- "Temistocles"
+	nombres [2,2]<- "Zoraines"
+	nombres [2,3]<- "Paulino"
+	nombres [2,4]<- "Carlina"
+		para filas <- 1 hasta 2 haga
+			para columnas <- 1hasta 4 haga
+				escriba "El nombres es: "
+				escriba nombres [filas, columnas], " "
+				llamar nueva_linea
+				llamar nueva_linea
+			fin para
+		fin para
+fin*/ 
+	

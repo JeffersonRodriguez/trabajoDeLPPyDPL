@@ -1,0 +1,111 @@
+entero numero1, suma, numero3, u
+cadena [2] c
+caracter i
+real numero2, a, b, d
+inicio
+ 		escriba "=================================================================================================="
+ 		llamar nueva_linea
+ 		llamar nueva_linea
+ 		escriba "521 Repite accion, numero mayor o menor a 521 continua el proceso"
+ 		llamar nueva_linea
+ 		llamar nueva_linea
+		escriba "-Digite un numero: "
+		lea numero1
+		mientras (numero1=521) haga 
+			escriba "exito "
+			llamar nueva_linea
+			llamar nueva_linea 
+			escriba "-Digite un numero: "
+			lea numero1 
+		fin mientras 
+				escriba "=================================================================================================="
+				llamar nueva_linea
+				llamar nueva_linea
+				escriba "-Digite c o C para multiplicar: "
+							lea c
+							llamar nueva_linea 
+							si c= "c" entonces 
+							    escriba "¡VAMOS A MULTIPLICAR!"
+							    llamar nueva_linea
+							    llamar nueva_linea
+								escriba "-Ingrese el primer numero: "
+								lea a
+								escriba "-Ingrese el segundo numero: "
+								lea b
+								d <-a*b
+								escriba "su multiplicacion es " ,d
+				                llamar nueva_linea
+				                llamar nueva_linea								
+							sino 
+								si c= "C" entonces 
+								escriba "¡VAMOS A MULTIPLICAR!"
+							    llamar nueva_linea
+							    llamar nueva_linea
+								escriba "-Ingrese el primer numero: "
+								lea a
+								escriba "-Ingrese el segundo numero: "
+								lea b
+								d <-a*b
+				                escriba "-Su multiplicacion es " ,d
+				                llamar nueva_linea
+				                llamar nueva_linea
+							sino 
+								llamar nueva_linea
+								llamar nueva_linea
+								escriba "¡VAMOS A RESTAR!"
+								llamar nueva_linea
+								llamar nueva_linea																
+								escriba "-Ingrese el primer numero: "
+								lea a
+								escriba "-Ingrese el segundo numero: "
+								lea b
+								d <-a-b
+								escriba "-Su resta es: " ,d
+								llamar nueva_linea
+								llamar nueva_linea
+							fin si
+							fin si
+							    escriba "=================================================================================================="
+							    llamar nueva_linea
+							    escriba "Para hacer la suma de numeros pares digite z o Z"
+							    llamar nueva_linea
+							    llamar nueva_linea
+							    escriba "-Digite la letra: "
+							    lea i
+							       si (i= 'z') entonces
+							       		para u<-1 hasta 10 haga
+							       		u<-u+1
+							       		llamar nueva_linea
+							       		escriba "Su numero es: "
+							       		escriba u
+							       		llamar nueva_linea
+							       		llamar nueva_linea
+							       		fin para
+							       sino
+								       si (i= 'Z') entonces
+								       		para u<-1 hasta 10 haga
+								       		u<-u+1
+								       		llamar nueva_linea
+								       		escriba "Su numero es: "
+								       		escriba u
+								       		llamar nueva_linea
+								       		llamar nueva_linea
+								       		fin para							       
+							       sino
+							            llamar nueva_linea
+							       		escriba "No se ha podido realizar, o la letra no ha sido identificada"
+							       		llamar nueva_linea
+							       		llamar nueva_linea
+							        fin si
+							           fin si
+							            escriba "=================================================================================================="
+							            llamar nueva_linea
+							            llamar nueva_linea
+							            escriba "Para multiplicar un numero por 10 solo digitelo"
+							       		llamar nueva_linea
+							       		llamar nueva_linea
+							       		escriba "-Digite el numero a multiplicar: "
+							       		lea numero2
+							       		llamar nueva_linea
+							       		escriba "-El resultado de la operacion es: ", (numero2*10) 									    
+fin    

@@ -1,0 +1,71 @@
+/*arreglo [9] de cadena [10] cifra
+entero n 
+inicio 
+	cifra [1] <- "8"
+	cifra [2] <- "30"
+	cifra [3] <- "7"
+	cifra [4] <- "24"
+	cifra [5] <- "1"
+	cifra [6] <- "0"
+	cifra [7] <- "6"
+	cifra [8] <- "5"
+	cifra [9] <- "4"
+		para n<-1 hasta 9 haga 	
+			escriba cifra[n]
+			llamar nueva_linea
+		fin para
+fin*/
+
+/*arreglo [9] de cadena [10] cifra
+entero n 
+inicio 
+	cifra [1] <- "8"
+	cifra [2] <- "30"
+	cifra [3] <- "7"
+	cifra [4] <- "24"
+	cifra [5] <- "1"
+	cifra [6] <- "0"
+	cifra [7] <- "tu mami"
+	cifra [8] <- "5"
+	cifra [9] <- "es tarde ya para jugar"
+		para n<-1 hasta 9 haga 	
+			escriba cifra[n]
+			llamar nueva_linea
+		fin para
+fin*/
+
+/*arreglo [9] de cadena [10] cifra
+entero n 
+inicio 
+		para n<-1 hasta 9 haga 	
+			lea cifra [n]
+			llamar nueva_linea
+		fin para		
+		para n<-1 hasta 9 haga 	
+			escriba cifra [n]
+			llamar nueva_linea
+		fin para
+fin*/
+
+arreglo [9] de cadena [10] cifra
+entero n 
+inicio 
+		escriba "==========================================================================="
+		llamar nueva_linea
+		llamar nueva_linea		
+		para n<-1 hasta 9 haga
+		    escriba "escriba la cifra: " 	
+			lea cifra [n]
+			llamar nueva_linea
+		fin para
+		escriba "==========================================================================="
+		llamar nueva_linea
+		llamar nueva_linea						
+		para n<-1 hasta 9 haga
+		    escriba "la cifra es: " 	
+			escriba cifra [n]
+			llamar nueva_linea
+			llamar nueva_linea
+		fin para
+fin
+
