@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+#include<cstdlib>  
 using namespace std;
 main()
 {
@@ -11,3 +12,12 @@ main()
 	getch();
 	system("pause");
 }
+
+
+
+
+
+
+
+
+         </p> por si no funciona el system("pause"); se coloca "#include<cstdlib>" </p>
