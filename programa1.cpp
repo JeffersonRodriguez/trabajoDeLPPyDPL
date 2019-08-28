@@ -3,7 +3,9 @@
 using namespace std;
 main()
 {
-  	cout<<"buenas noches";
-  	getch();
-  	system("pause");
+	cout<<"buenas noches";
+	cout<<endl;
+	
+	getch();
+	system("pause");
 }
