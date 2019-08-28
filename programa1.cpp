@@ -5,4 +5,5 @@ main()
 {
   	cout<<"buenas noches";
   	getch();
+  	system("pause");
 }
